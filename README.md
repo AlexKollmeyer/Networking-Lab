@@ -1,6 +1,6 @@
 # Networking-Lab
 <p align="center">
-<img src="[https://imgur.com/UOlLgAX](https://i.imgur.com/UOlLgAX.png)" alt="networking image"/>
+<img src="https://i.imgur.com/UOlLgAX.png" alt="networking image"/>
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
