@@ -1,6 +1,6 @@
 # Networking-Lab
 <p align="center">
-<img src="https://[i.imgur.com/Clzj7Xs.png](https://assets-global.website-files.com/5b6df8bb681f89c158b48f6b/5ce426d9a4a48f75aee6f062_what-is-a-computer-network.jpg)" alt="osTicket logo"/>
+<img src="C:\Users\akoll\Downloads\1678694976539-Group 10.png" alt="osTicket logo"/>
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
