@@ -1,6 +1,6 @@
 # Networking-Lab
 <p align="center">
-<img src="C:\Users\akoll\Downloads\1678694976539-Group 10.png" alt="osTicket logo"/>
+<img src="[C:\Users\akoll\Downloads\1678694976539-Group 10.png](https://imgur.com/a/jn2yI6k)" alt="osTicket logo"/>
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
