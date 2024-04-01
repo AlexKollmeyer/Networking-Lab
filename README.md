@@ -32,6 +32,14 @@
 10.Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
 11.Stop the ping activity
 
+<h2>Observing SSH Activity</h2>
+1. In Wireshark filter for SSH Traffic
+2. From your windows 10 VM, "SSH into" your Ubuntu virtual machine via it's private IP Address
+3. Type and use commands (username, pwd, etc) into the linux SSH connection and obeserve the SSH traffic in wireshark as you type.
+4. Exit the SSH By typing exit and then pressing the enter key.
+
+
+<h3>Observing DHCP Traffic</h3>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
