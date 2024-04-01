@@ -16,7 +16,7 @@
 <h2>Setup Steps</h2>
 
 1.Create a resource group in azure
-<b>
+<br/ >
 2. Create a windows 10 virtual machine, it should be in the same region as the resource group, let it create a new virtual network (vnet)
 3.Create A Ubuntu 20.04 Server (Linux), ensure that it is in the same previously created resource group and vnet as the windows 10 virtual machine
 
