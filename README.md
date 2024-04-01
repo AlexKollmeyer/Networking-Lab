@@ -39,27 +39,23 @@
 4. Exit the SSH By typing exit and then pressing the enter key.
 
 
-<h3>Observing DHCP Traffic</h3>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h2>Observing DHCP Traffic</h2>
+1. In wireshark filter for DHCP traffic
+2. In the command line for the windows 10 VM, attempt to issue your VM a new IP Address using ipconfig/renew
+3. Observe the DHCP traffic appearing in wireshark as your VM is assigned a new IP address
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h2>Observing DNS Traffic</h2>
+1. In Wireshark filter for DNS Traffic only
+2. From the command line, use the command nslookup to see the ip addresses for any sites (google.com, disney.com)
+3. Observe the DNS traffic in Wireshark
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h2>Observing RDP Traffic</h2>
+1. In Wireshark filter for RDP Traffic only (tcp port 3389)
+2. You will immedietly notice a non stop spam of traffic. This is because RDP (Remote Desktop Protocol is what is currently being used to connect from whatever computer you are physically to a livestream of the Windows 10 virtual machine, so there should constantly be traffic back and forth between your computer and the VM.
+
+
+<h2>Cleanup</h2>
+1. Close the Remote desktop connection
+2. Delete the resouce group (important so as not to continue to incur costs from the VM) and verify it was deleted.
+
+
