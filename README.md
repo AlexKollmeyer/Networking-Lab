@@ -85,7 +85,7 @@
 2. From the command line, use the command nslookup to see the ip addresses for any sites (google.com, disney.com)
 <br/>
 3. Observe the DNS traffic in Wireshark
-<img src="https://imgur.com/c4Kcu7l" alt="networking image"/>
+<img src="https://imgur.com/c4Kcu7l.png" alt="networking image"/>
 
 <h2>Observing RDP Traffic</h2>
 1. In Wireshark filter for RDP Traffic only (tcp port 3389)
