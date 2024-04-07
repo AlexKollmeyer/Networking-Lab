@@ -44,7 +44,7 @@
 <img src="https://imgur.com/ONG9XRu.png" alt="networking image"/>
 <br/>
 6.Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM. Command is ping (private ip address) -t
-<img src=https://imgur.com/4lI2ZA4".png" alt="networking image"/>
+<img src="https://imgur.com/4lI2ZA4.png" alt="networking image"/>
 <br/>
 7.Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
 <img src="https://imgur.com/Lk92QGZ.png" alt="networking image"/>
