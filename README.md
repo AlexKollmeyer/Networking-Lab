@@ -19,12 +19,12 @@
 <br/>
 2. Create a windows 10 virtual machine, it should be in the same region as the resource group, let it create a new virtual network (vnet)
 <br/>
-  <img src="https://imgur.com/ZKrTS07" alt="networking image"/>
-  <img src="https://imgur.com/wQEw6b4" alt="networking image"/>
+  <img src="https://imgur.com/ZKrTS07.png" alt="networking image"/>
+  <img src="https://imgur.com/wQEw6b4.png" alt="networking image"/>
 </p>
 3.Create A Ubuntu 20.04 Server (Linux), ensure that it is in the same previously created resource group and vnet as the windows 10 virtual machine
 </p>
-<img src="https://imgur.com/gIm94qR" alt="networking image"/>
+<img src="https://imgur.com/gIm94qR.png" alt="networking image"/>
 
 <h2>Observing ICMP Traffic</h2>
 1. Use remote desktop to connect to the windows 10 virtual machine
